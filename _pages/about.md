@@ -24,7 +24,7 @@ Now I'm a third-year graduate student in Computer and Science from the School of
 
 My research interests include **Generative Models**, **Neural Rendering**, **Computer Graphics**, **Semi-supervised Learning** and **Medical Image Processing**. 
 
-I work closely to Daiheng Gao, Jie Zhang and Dr. Cheng Chen.
+I work closely to Daiheng Gao, Dr. Jie Zhang, Dr. Weicai Huang and Dr. Cheng Chen.
 
 ~~Looking for a PhD position in Generative Models in 2023 (fall).~~
 
@@ -33,11 +33,25 @@ I work closely to Daiheng Gao, Jie Zhang and Dr. Cheng Chen.
 
 
 # 🔥 News
-- *2022.09*: &nbsp;🎉🎉 One paper accepts to Nature Communications 2022. 
+- *2023.06*: &nbsp;🎉🎉 One paper accepts to TVCG. 
+- *2022.09*: &nbsp;🎉🎉 One paper accepts to Nature Communications. 
 - *2022.06*: &nbsp;🎉🎉 One paper accepts to ACM MM 2022 as **Poster**. 
-- *2022.06*: &nbsp;🎉🎉 One paper accepts to TMI 2022. 
+- *2022.06*: &nbsp;🎉🎉 One paper accepts to TMI. 
 
 # 📝 Selected Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG</div><img src='images/tvcg2023.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MeshWGAN: Mesh-to-Mesh Wasserstein GAN With Multi-Task Gradient Penalty for 3D Facial Geometric Age Transformation](https://ieeexplore.ieee.org/document/10148804)
+
+Jie Zhang, **Kangneng Zhou**, Yan Luximon, Tong-Yee Lee, Ping Li
+
+<!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
+<!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2022</div><img src='images/acmmm2022.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
