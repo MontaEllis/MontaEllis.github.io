@@ -40,7 +40,7 @@ I work closely to Daiheng Gao, Dr. Jie Zhang, Dr. Weicai Huang and Dr. Cheng Che
 
 # 📝 Selected Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG</div><img src='images/tvcg2023.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/tvcg2023.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MeshWGAN: Mesh-to-Mesh Wasserstein GAN With Multi-Task Gradient Penalty for 3D Facial Geometric Age Transformation](https://ieeexplore.ieee.org/document/10148804)
