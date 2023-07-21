@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Kangneng Zhou (周康能)"
-description              : "Incoming PhD student in Nankai University. Focusing on image synthesis and neural rendering."
+description              : "Ph.D student in Nankai University. Focusing on image synthesis and neural rendering."
 repository               : "https://montaellis.github.io/"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Kangneng Zhou (周康能)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "University of Science and Technology Beijing"
-  location         : "Beijing, China"
+  bio              : "Nankai University"
+  location         : "Tianjin, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=y1vvxWYAAAAJ"

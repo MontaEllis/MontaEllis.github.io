@@ -20,13 +20,13 @@ redirect_from:
 
 # 😀 Me
 
-Now I'm a third-year graduate student in Computer and Science from the School of Computer & Communication Engineering, University of Science and Technology Beijing, supervised by Prof. Xu-cheng Yin and Prof. Xiaobin Zhu. I obatained my bachelor's degree in Internet of Things Engineering from the School of Computer & Communication Engineering, University of Science and Technology Beijing in 2020, supervised by Prof. Ruoxiu Xiao and Dr. Cheng Chen.
+Now I'm a first year Ph.D. student in Nankai University, supervised by Prof. Yaxing Wang. I obatained my master's degree in Computer and Science from the School of Computer & Communication Engineering, University of Science and Technology Beijing, supervised by Prof. Xu-cheng Yin and Prof. Xiaobin Zhu. I obatained my bachelor's degree in Internet of Things Engineering from the School of Computer & Communication Engineering, University of Science and Technology Beijing in 2020, supervised by Prof. Ruoxiu Xiao and Dr. Cheng Chen.
 
-My research interests include **Generative Models**, **Neural Rendering**, **Computer Graphics**, **Semi-supervised Learning** and **Medical Image Processing**. 
+My research interests include **Generative Models**, **Neural Rendering**, **Computer Graphics**, and **Medical Image Processing**. 
 
-I work closely to Daiheng Gao, Dr. Jie Zhang, Dr. Weicai Huang and Dr. Cheng Chen.
+I work very closely to Daiheng Gao, Dr. Jie Zhang, Dr. Weicai Huang and Prof. Yuming Jiang.
 
-~~Looking for a PhD position in Generative Models in 2023 (fall).~~
+<!-- ~~Looking for a PhD position in Generative Models in 2023 (fall).~~ -->
 
 
 <!-- neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
@@ -131,7 +131,6 @@ Cheng Chen, **Kangneng Zhou**, Muxi Zha, Xiangyan Qu, Xiaoyu Guo, Hongyu Chen, Z
 # 🎖 Honors and Awards
 
 - *2021.10* Silver prize in 7th China International College Students’ ’Internet+’ Innovation and Entrepreneurship Competition
-
 - *2018.5* First prize in 17th China University Robot Competition
 - *2019.5* Second prize in 18th China University Robot Competition
 - *2019.7* Third prize in 8th China Software Cup
@@ -139,7 +138,9 @@ Cheng Chen, **Kangneng Zhou**, Muxi Zha, Xiangyan Qu, Xiaoyu Guo, Hongyu Chen, Z
 
 
 # 📖 Educations
-- *2020.09 - 2023.06 (now)*, Master: Computer and Science
+
+- *2023.09 - now*, Ph.D Student: Computer and Science
+- *2020.09 - 2023.06*, Master: Computer and Science
 - *2016.09 - 2020.06*, Bachelor: Internet of Things Engineering
 
 # 💬 Invited Talks
@@ -147,4 +148,4 @@ Cheng Chen, **Kangneng Zhou**, Muxi Zha, Xiangyan Qu, Xiaoyu Guo, Hongyu Chen, Z
 <!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-<!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+- *2023.03 - 2023.08*, XR Lab at DAMO Academy in Alibaba, Beijing.
