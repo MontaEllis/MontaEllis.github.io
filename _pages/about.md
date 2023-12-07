@@ -20,11 +20,11 @@ redirect_from:
 
 # 😀 Me
 
-Now I'm a first year Ph.D. student in Nankai University, supervised by Prof. Yaxing Wang. I obatained my master's degree in Computer and Science from the School of Computer & Communication Engineering, University of Science and Technology Beijing, supervised by Prof. Xu-cheng Yin and Prof. Xiaobin Zhu. I obatained my bachelor's degree in Internet of Things Engineering from the School of Computer & Communication Engineering, University of Science and Technology Beijing in 2020, supervised by Prof. Ruoxiu Xiao and Dr. Cheng Chen.
+Now I'm a first year Ph.D. student in Nankai University, supervised by Prof. Yaxing Wang. I obatained my master's degree in Computer and Science from the School of Computer & Communication Engineering, University of Science and Technology Beijing, supervised by Prof. Xu-cheng Yin and Prof. Xiaobin Zhu. I obatained my bachelor's degree in Internet of Things Engineering from the School of Computer & Communication Engineering, University of Science and Technology Beijing in 2020, supervised by Prof. Ruoxiu Xiao.
 
 My research interests include **Generative Models**, **Neural Rendering**, **Computer Graphics**, and **Medical Image Processing**. 
 
-I work very closely to Daiheng Gao, Dr. Jie Zhang, Dr. Weicai Huang and Prof. Yuming Jiang.
+I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai Huang and Prof. Yuming Jiang.
 
 <!-- ~~Looking for a PhD position in Generative Models in 2023 (fall).~~ -->
 
@@ -37,6 +37,14 @@ I work very closely to Daiheng Gao, Dr. Jie Zhang, Dr. Weicai Huang and Prof. Yu
 - *2022.09*: &nbsp;🎉🎉 One paper accepts to Nature Communications. 
 - *2022.06*: &nbsp;🎉🎉 One paper accepts to ACM MM 2022 as **Poster**. 
 - *2022.06*: &nbsp;🎉🎉 One paper accepts to TMI. 
+
+# 📕 Preprint
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/vividtalk.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[VividTalk: One-Shot Audio-Driven Talking Head Generation Based on 3D Hybrid Prior](https://humanaigc.github.io/vivid-talk/)
+
+Xusen Sun, Longhao Zhang, Hao Zhu, Peng Zhang, Bang Zhang, Xinya Ji, **Kangneng Zhou**, Daiheng Gao, Liefeng Bo, Xun Cao
 
 # 📝 Selected Publications 
 
@@ -148,4 +156,4 @@ Cheng Chen, **Kangneng Zhou**, Muxi Zha, Xiangyan Qu, Xiaoyu Guo, Hongyu Chen, Z
 <!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
-- *2023.03 - 2023.08*, XR Lab at DAMO Academy in Alibaba, Beijing.
+- *2023.03 - 2023.12*, XR Lab at Institute for Intelligent Computing in Alibaba Group, Beijing.
