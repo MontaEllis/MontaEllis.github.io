@@ -46,6 +46,9 @@ I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai
 
 Xusen Sun, Longhao Zhang, Hao Zhu, Peng Zhang, Bang Zhang, Xinya Ji, **Kangneng Zhou**, Daiheng Gao, Liefeng Bo, Xun Cao
 
+</div>
+</div>
+
 # 📝 Selected Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/tvcg2023.gif' alt="sym" width="100%"></div></div>
