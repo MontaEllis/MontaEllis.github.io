@@ -39,6 +39,18 @@ I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai
 - *2022.06*: &nbsp;🎉🎉 One paper accepts to TMI. 
 
 # 📕 Preprint
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/mate3d.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MaTe3D: Mask-guided Text-based 3D-aware Portrait Editing](https://humanaigc.github.io/mate3d/)
+
+**Kangneng Zhou**, Daiheng Gao, Xuan Wang, Jie Zhang, Peng Zhang, Xusen Sun, Longhao Zhang, Shiqi Yang, Bang Zhang, Liefeng Bo, Yaxing Wang
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/vividtalk.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
