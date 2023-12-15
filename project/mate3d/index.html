@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="MaTe3D">
+  <meta property="og:title" content="MaTe3D" />
+  <meta property="og:description"
+    content="MaTe3D: Mask-guided Text-based 3D-aware Portrait Editing" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/video_t1.png" />
+  <meta property="og:image:width" content="2412" />
+  <meta property="og:image:height" content="1394" />
+
+
+  <meta name="twitter:title" content="MaTe3D">
+  <meta name="twitter:description"
+    content="MaTe3D: Mask-guided Text-based 3D-aware Portrait Editing">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/video_t1.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Image-to-Video">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MaTe3D</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href=https://github.com/HumanAIGC>
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://humanaigc.github.io/outfit-anyone/">
+              Outfit Anyone
+            </a>
+            <a class="navbar-item" href="https://humanaigc.github.io/animate-anyone/">
+              AnimateAnyone
+            </a>
+            <a class="navbar-item" href="https://humanaigc.github.io/vivid-talk/">
+              VividTalk
+            </a>
+            <a class="navbar-item" href="https://tomguluson92.github.io/projects/cloth2tex/">
+              Cloth2Tex
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">MaTe3D: Mask-guided Text-based 3D-aware Portrait Editing </h1>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://montaellis.github.io/">Kangneng Zhou</a><sup>1,*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://tomguluson92.github.io/">Daiheng Gao</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://xuanwangvc.github.io/">Xuan Wang</a><sup>3,✉</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=gBkYZeMAAAAJ">Jie Zhang</a><sup>4,5,6</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=QTgxKmkAAAAJ&hl=zh-CN">Peng Zhang</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://dblp.org/pid/308/0824.html">Xusen Sun</a><sup>7</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=qkJD6c0AAAAJ">Longhao Zhang</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.shiqiyang.xyz/">Shiqi Yang</a><sup>8</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://dblp.org/pid/11/4046.html">Bang Zhang</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=FJwtMf0AAAAJ&hl=zh-CN">Liefeng Bo</a><sup>2</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.es/citations?user=6CsB8k0AAAAJ">Yaxing Wang</a><sup>1,✉</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>VCIP,CS, Nankai University,</span>
+              <span class="author-block"><sup>2</sup>Institute for Intelligent Computing, Alibaba Group,</span>
+              <span class="author-block"><sup>3</sup>Ant Group,</span>
+              <span class="author-block"><sup>4</sup>School of Design, The Hong Kong Polytechnic University,</span>
+              <span class="author-block"><sup>5</sup>Faculty of Innovation and Design, City University of Macau,</span>
+              <span class="author-block"><sup>6</sup>Department of Computing, The Hong Kong Polytechnic University,</span>
+              <span class="author-block"><sup>7</sup>Nanjing University,</span>
+              <span class="author-block"><sup>8</sup>Computer Vision Center, Universitat Autonoma</span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>*</sup>Work done as an intern at Alibaba Group,</span>
+              <span class="author-block"><sup>✉</sup>Corresponding authors</span>
+            </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2312.06947" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2312.06947" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=6R5MXhz14R8" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/HumanAIGC/MaTe3D" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/images/teaser.png"
+                type="video/mp4">
+      </video> -->
+      <div>
+        <img src="./content/teaser/teaser.png"
+             class="interpolation-image"/>
+      </div>
+      <!-- <h2 class="subtitle has-text-centered">
+        <span class="dnerf">VividTalk</span> can generate realistic and lip-sync talking head videos with expressive facial expression,
+        natural head poses.
+      </h2> -->
+    </div>
+  </div>
+</section>
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Recently, 3D-aware face editing has witnessed remarkable progress. Although current approaches successfully perform mask-guided or text-based editing, these properties have not been combined into a single method. To address this limitation, we propose \textbf{MaTe3D}: mask-guided text-based 3D-aware portrait editing. First, we propose a new SDF-based 3D generator. To better perform masked-based editing (mainly happening in local areas), we propose SDF and density consistency losses, aiming to effectively model both the global and local representations jointly. Second, we introduce an inference-optimized method. We introduce two techniques based on the SDS (Score Distillation Sampling), including a blending SDS and a conditional SDS. The former aims to overcome the mismatch problem between geometry and appearance, ultimately harming fidelity. The conditional SDS contributes to further producing satisfactory and stable results. Additionally, we create CatMask-HQ dataset, a large-scale high-resolution cat face annotations. We perform experiments on both the FFHQ and CatMask-HQ datasets to demonstrate the effectiveness of the proposed method. Our method generates faithfully a edited 3D-aware face image given a modified mask and a text prompt. Our code and models will be publicly released.         
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+
+  <!-- Method -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <h2 class="title is-2">Method</h2>
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <img src="./content/method/framework.png" alt="MY ALT TEXT" style="width: 90%; height: 90%;" />
+        </div>
+        <div class="item">
+          <h2 class="content has-text-justified">
+            <p style="font-size: 1.2em;">
+              Framework of MaTe3D. MaTe3D Generator (a) consists of Tri-planes Generation and Neural Rendering. Tri-planes Generation constructs 3D volumes of texture and shape in tri-plane representations. Neural Rendering renders 3D-aware image and mask from learned SDF and color. In Inference-optimized editing phase (b), we utilize both a frozen generator ($G_{frz}$) and a learnable generator ($G_{opt}$), which were initialized by the generator in (a).  We extract 3D masks from both generators to guide feature fusion in tri-planes in (c). In addition, we propose blending SDS (d) and conditional SDS (e) to achieve mask-guided and text-based editing while maintaining consistent texture across multiple views and producing reasonable geometry.
+          </p>
+          </h2>
+
+          <!-- <h2 class="title is-3">Post-Hoc Refiner</h2> -->
+          <div class="item">
+            <!-- <div style="display: flex; justify-content: center; align-items: center;">
+              <img src="content/images/framework/refiner.jpg" alt="MY ALT TEXT" style="width: 70%; height: 70%;" />
+            </div> -->
+          <!-- <h2 class="content has-text-justified">
+            <p style="font-size: 1.2em;">To enhance the texture and authenticity of clothing and skin, 
+              we have developed <b>Refiner</b>, a tool that takes our generated results to the next level by improving their quality. 
+              This allows us to achieve a true-to-life fitting effect.</p>
+          </h2> -->
+        </div>
+    </div>
+  </section>
+  <!-- End Method -->
+
+  <style>
+    .gifImage:hover {
+      opacity: 0.8;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      transform: scale(1.1);
+    }
+
+    .paused {
+      animation-play-state: paused;
+    }
+
+  </style>
+  
+
+<head>
+    <title>place gif</title>
+    <style>
+        .gif-container {
+            display: flex;
+        }
+
+        .gif {
+            width: 660px; /* 设置 GIF 的宽度 */
+            height: 400px; /* 设置 GIF 的高度 */
+        }
+    </style>
+</head>
+
+
+<section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-2">Results</h2>
+        <br></br>
+        <!-- Outfit Swapping -->
+        <h3 class="title is-4">Please Stay Tuned!!!</h3>
+    </div>
+</section>
+
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-2">Videos</h2>
+      <br></br>
+      <!-- Outfit Swapping -->
+      <div class="item item-video1" style="text-align: center;">
+        <div class="publication-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/6R5MXhz14R8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      </div>
+  </div>
+</section>
+
+
+  
+  
+
+
+
+
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{zhou2023mate3d,
+      title     = {MaTe3D: Mask-guided Text-based 3D-aware Portrait Editing},
+      author    = {Kangneng Zhou, Daiheng Gao, Xuan Wang, Jie Zhang, Peng Zhang, Xusen Sun, Longhao Zhang, Shiqi Yang, Bang Zhang, Liefeng Bo, Yaxing Wang},
+      journal   = {arXiv preprint arXiv:2312.06947},
+      website   = {https://humanaigc.github.io/MaTe3D/},
+      year      = {2023}}
+</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+          href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+
+
+</html>
