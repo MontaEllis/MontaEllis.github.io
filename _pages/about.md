@@ -43,7 +43,7 @@ I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai
 
 # 📕 Preprint
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/mate3d.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/mate3d1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MaTe3D: Mask-guided Text-based 3D-aware Portrait Editing](https://arxiv.org/abs/2312.06947)
@@ -174,6 +174,7 @@ Cheng Chen, **Kangneng Zhou**, Muxi Zha, Xiangyan Qu, Xiaoyu Guo, Hongyu Chen, Z
 # 😊 Academic Services
 
 Conference Reviewer: ACM MM, NeurIPS, PRCV
+
 Journal Reviewer: CMC
 
 # 📖 Educations
