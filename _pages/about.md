@@ -173,7 +173,7 @@ Cheng Chen, **Kangneng Zhou**, Muxi Zha, Xiangyan Qu, Xiaoyu Guo, Hongyu Chen, Z
 
 # 😊 Academic Services
 
-Conference Reviewer: ACM MM, NeurIPS, PRCV
+Conference Reviewer: ACM MM, NeurIPS, CVPR, PRCV
 
 Journal Reviewer: CMC
 
