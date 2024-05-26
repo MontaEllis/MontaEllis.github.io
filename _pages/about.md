@@ -20,11 +20,13 @@ redirect_from:
 
 # 😀 Me
 
-Now I'm a first year Ph.D. student in Nankai University, supervised by Prof. Yaxing Wang. I obatained my master's degree in Computer and Science from the School of Computer & Communication Engineering, University of Science and Technology Beijing, supervised by Prof. Xu-cheng Yin and Prof. Xiaobin Zhu. I obatained my bachelor's degree in Internet of Things Engineering from the School of Computer & Communication Engineering, University of Science and Technology Beijing in 2020, supervised by Prof. Ruoxiu Xiao.
+Now I'm a first year Ph.D. student in Nankai University, supervised by Prof. Yaxing Wang and Prof. Ming-Ming Cheng. I obatained my master's degree in Computer and Science from the School of Computer & Communication Engineering, University of Science and Technology Beijing, supervised by Prof. Xu-cheng Yin and Prof. Xiaobin Zhu. I obatained my bachelor's degree in Internet of Things Engineering from the School of Computer & Communication Engineering, University of Science and Technology Beijing in 2020, supervised by Prof. Ruoxiu Xiao.
 
 My research interests include **Generative Models**, **Neural Rendering**, **Computer Graphics**, and **Medical Image Processing**. 
 
 I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai Huang and Prof. Yuming Jiang.
+
+
 
 
 <!-- ~~Looking for a PhD position in Generative Models in 2023 (fall).~~ -->
@@ -44,9 +46,19 @@ I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/mate3d.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MaTe3D: Mask-guided Text-based 3D-aware Portrait Editing](https://humanaigc.github.io/mate3d/)
+[MaTe3D: Mask-guided Text-based 3D-aware Portrait Editing](https://arxiv.org/abs/2312.06947)
 
-**Kangneng Zhou**, Daiheng Gao, Xuan Wang, Jie Zhang, Peng Zhang, Xusen Sun, Longhao Zhang, Shiqi Yang, Bang Zhang, Liefeng Bo, Yaxing Wang
+**Kangneng Zhou**, Daiheng Gao, Xuan Wang, Jie Zhang, Peng Zhang, Xusen Sun, Longhao Zhang, Shiqi Yang, Bang Zhang, Liefeng Bo, Yaxing Wang, Ming-Ming Cheng
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/CT2X-GAN.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Multi-view X-ray Image Synthesis with Multiple Domain Disentanglement from CT Scans](https://arxiv.org/abs/2404.11889)
+
+Lixing Tan, Shuang Song, **Kangneng Zhou**, Chengbo Duan, Lanying Wang, Huayang Ren, Linlin Liu, Wei Zhang, Ruoxiu Xiao
 
 </div>
 </div>
@@ -159,7 +171,10 @@ Cheng Chen, **Kangneng Zhou**, Muxi Zha, Xiangyan Qu, Xiaoyu Guo, Hongyu Chen, Z
 - *2019.5* Second prize in 18th China University Robot Competition
 - *2019.7* Third prize in 8th China Software Cup
 
+# 😊 Academic Services
 
+Conference Reviewer: ACM MM, NeurIPS, PRCV
+Journal Reviewer: CMC
 
 # 📖 Educations
 
