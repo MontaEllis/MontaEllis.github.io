@@ -36,6 +36,7 @@ I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai
 
 
 # 🔥 News
+- *2024.07*: &nbsp;🎉🎉 One paper accepts to ACM MM 2024. 
 - *2023.06*: &nbsp;🎉🎉 One paper accepts to TVCG. 
 - *2022.09*: &nbsp;🎉🎉 One paper accepts to Nature Communications. 
 - *2022.06*: &nbsp;🎉🎉 One paper accepts to ACM MM 2022 as **Poster**. 
@@ -53,16 +54,6 @@ I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/CT2X-GAN.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Multi-view X-ray Image Synthesis with Multiple Domain Disentanglement from CT Scans](https://arxiv.org/abs/2404.11889)
-
-Lixing Tan, Shuang Song, **Kangneng Zhou**, Chengbo Duan, Lanying Wang, Huayang Ren, Linlin Liu, Wei Zhang, Ruoxiu Xiao
-
-</div>
-</div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/vividtalk.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -75,6 +66,18 @@ Xusen Sun, Longhao Zhang, Hao Zhu, Peng Zhang, Bang Zhang, Xinya Ji, **Kangneng 
 </div>
 
 # 📝 Selected Publications 
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/CT2X-GAN.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Multi-view X-ray Image Synthesis with Multiple Domain Disentanglement from CT Scans](https://arxiv.org/abs/2404.11889)
+
+Lixing Tan, Shuang Song, **Kangneng Zhou**, Chengbo Duan, Lanying Wang, Huayang Ren, Linlin Liu, Wei Zhang, Ruoxiu Xiao
+
+</div>
+</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/tvcg2023.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
