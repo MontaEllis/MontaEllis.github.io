@@ -36,6 +36,8 @@ I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai
 
 
 # 🔥 News
+- *2024.11*: &nbsp;🎉🎉 One paper accepts to 3DV 2025. 
+- *2024.09*: &nbsp;🎉🎉 One paper accepts to TMM. 
 - *2024.07*: &nbsp;🎉🎉 One paper accepts to ACM MM 2024. 
 - *2023.06*: &nbsp;🎉🎉 One paper accepts to TVCG. 
 - *2022.09*: &nbsp;🎉🎉 One paper accepts to Nature Communications. 
@@ -55,7 +57,10 @@ I work very closely to Daiheng Gao, Dr. Jie Zhang, Prof. Shuang Song, Dr. Weicai
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/vividtalk.png' alt="sym" width="100%"></div></div>
+
+# 📝 Selected Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DV 2025</div><img src='images/vividtalk.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [VividTalk: One-Shot Audio-Driven Talking Head Generation Based on 3D Hybrid Prior](https://humanaigc.github.io/vivid-talk/)
@@ -65,7 +70,17 @@ Xusen Sun, Longhao Zhang, Hao Zhu, Peng Zhang, Bang Zhang, Xinya Ji, **Kangneng 
 </div>
 </div>
 
-# 📝 Selected Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM</div><img src='images/TMM_2024.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[3DCMM: 3D Comprehensive Morphable Models with UV-UNet for Accurate Head Creation](https://github.com/Easy-Shu/HeadUV-UNet)
+
+Jie Zhang, **Kangneng Zhou**, Yan Luximon, Tong-Yee Lee, Ping Li
+
+</div>
+</div>
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM MM 2024</div><img src='images/CT2X-GAN.png' alt="sym" width="100%"></div></div>
