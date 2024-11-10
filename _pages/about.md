@@ -94,7 +94,7 @@ Lixing Tan, Shuang Song, **Kangneng Zhou**, Chengbo Duan, Lanying Wang, Huayang 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/tvcg2023.gif' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG</div><img src='images/tvcg2023.gif' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MeshWGAN: Mesh-to-Mesh Wasserstein GAN With Multi-Task Gradient Penalty for 3D Facial Geometric Age Transformation](https://ieeexplore.ieee.org/document/10148804)
@@ -124,7 +124,7 @@ Jie Zhang, **Kangneng Zhou**, Yan Luximon, Tong-Yee Lee, Ping Li
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI 2022</div><img src='images/tmi2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMI</div><img src='images/tmi2022.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Generative Consistency for Semi-Supervised Cerebrovascular Segmentation from TOF-MRA](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=y1vvxWYAAAAJ&sortby=pubdate&citation_for_view=y1vvxWYAAAAJ:UebtZRa9Y70C)
@@ -136,7 +136,7 @@ Cheng Chen, **Kangneng Zhou**, Zhiliang Wang, Ruoxiu Xiao
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TII 2021</div><img src='images/tii2021.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TII</div><img src='images/tii2021.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [An effective deep neural network for lung lesions segmentation from COVID-19 CT images](https://web.archive.org/web/20210715033826id_/https://ieeexplore.ieee.org/ielx7/9424/9456773/09354055.pdf)
